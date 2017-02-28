@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">child-1 (not legal)</a></li>
+      <li><a class="legal" href="#">child-2</a></li>
+      <li><a href="#">child-3 (not legal)</a></li>
+      <li><a class="legal" href="#">child-4</a></li>
+    </ul>
+    <p id="info">Clicked child: </p>
+
+    <div class="image">
+      <img src="https://goo.gl/2oZU2S" alt="First">
+      <button class="remove">X</button>
+    </div>
+    <div class="image">
+      <img src="https://goo.gl/tniGAc" alt="Second">
+      <button class="remove" onclick="registerClickHandler(this)">X</button>
+    </div>
+
+  </body>
+</html>
