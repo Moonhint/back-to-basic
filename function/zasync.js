@@ -1,5 +1,3 @@
-
-
 let promiseFunction = () => {
   return new Promise((resolve, reject)=>{
     resolve("something");
