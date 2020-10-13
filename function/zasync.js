@@ -11,7 +11,7 @@ let main = async () => {
 }
 
 let mainNonAsync = () => {
-  let result = main();
+  let result = promiseFunction();
   console.log(result, "mainNonAsync");
   return result;
 } 
